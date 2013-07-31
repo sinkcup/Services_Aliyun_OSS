@@ -31,8 +31,6 @@ class Services_Aliyun_OSS
     {
         $this->bucket = $bucket;
         $this->conf = array_merge($this->conf, $conf);
-        var_dump($conf);
-        var_dump($this->conf);
     }
 
     /**
