@@ -17,7 +17,7 @@ class OSSTest extends PHPUnit_Framework_TestCase
 
     public function testPut()
     {
-        $c = new Services_Aliyun_OSS('com-iqianggou-dev', $this->conf);
+        $c = new Services_Aliyun_OSS('com-example-dl', $this->conf);
         $headers = array(
             'Content-Type' => 'image/jpeg',
         );
